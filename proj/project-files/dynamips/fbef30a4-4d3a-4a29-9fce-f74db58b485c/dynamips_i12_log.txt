@@ -1,0 +1,62 @@
+Jan 08 23:54:06.875 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 08 23:54:06.876 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49381.
+Jan 08 23:54:07.360 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 08 23:54:07.360 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\JacintoLuf\Desktop\ua\ano4\ara\projeto\proj\proj\project-files\dynamips 
+Jan 08 23:54:07.360 GENERAL: working_dir=C:\Users\JacintoLuf\Desktop\ua\ano4\ara\projeto\proj\proj\project-files\dynamips
+Jan 08 23:54:07.361 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\JacintoLuf\Desktop\ua\ano4\ara\projeto\proj\proj\project-files\dynamips\11c89857-1e16-4d05-a4ee-59c2bfbaf98f 
+Jan 08 23:54:07.361 GENERAL: working_dir=C:\Users\JacintoLuf\Desktop\ua\ano4\ara\projeto\proj\proj\project-files\dynamips\11c89857-1e16-4d05-a4ee-59c2bfbaf98f
+Jan 08 23:54:07.361 HYPERVISOR: exec_cmd: vm create A_North 3 c7200 
+Jan 08 23:54:07.362 VM: VM A_North created.
+Jan 08 23:54:07.363 HYPERVISOR: exec_cmd: vm set_con_tcp_port A_North 5010 
+Jan 08 23:54:07.363 HYPERVISOR: exec_cmd: c7200 get_mac_addr A_North 
+Jan 08 23:54:07.364 HYPERVISOR: exec_cmd: vm get_status A_North 
+Jan 08 23:54:07.364 HYPERVISOR: exec_cmd: vm slot_add_binding A_North 0 0 C7200-IO-FE 
+Jan 08 23:54:07.365 HYPERVISOR: exec_cmd: vm set_disk0 A_North 0 
+Jan 08 23:54:07.365 HYPERVISOR: exec_cmd: vm set_exec_area A_North 64 
+Jan 08 23:54:07.366 HYPERVISOR: exec_cmd: vm get_status A_North 
+Jan 08 23:54:07.366 HYPERVISOR: exec_cmd: vm set_idle_pc A_North 0x601712a8 
+Jan 08 23:54:07.367 HYPERVISOR: exec_cmd: vm set_ios A_North C:/Users/JacintoLuf/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jan 08 23:54:07.367 HYPERVISOR: exec_cmd: c7200 set_mac_addr A_North ca03.3580.0000 
+Jan 08 23:54:07.368 HYPERVISOR: exec_cmd: vm set_nvram A_North 512 
+Jan 08 23:54:07.368 HYPERVISOR: exec_cmd: vm set_ram A_North 512 
+Jan 08 23:54:07.369 HYPERVISOR: exec_cmd: vm get_status A_North 
+Jan 08 23:54:07.369 HYPERVISOR: exec_cmd: vm slot_remove_binding A_North 0 0 
+Jan 08 23:54:07.369 HYPERVISOR: exec_cmd: vm get_status A_North 
+Jan 08 23:54:07.370 HYPERVISOR: exec_cmd: vm slot_add_binding A_North 0 0 C7200-IO-2FE 
+Jan 08 23:54:07.370 HYPERVISOR: exec_cmd: vm get_status A_North 
+Jan 08 23:54:07.371 HYPERVISOR: exec_cmd: vm slot_add_binding A_North 1 0 PA-2FE-TX 
+Jan 08 23:54:14.511 HYPERVISOR: exec_cmd: nio create_udp udp-c91553ae-95f9-4bbe-b97f-ee539da4b754 10010 127.0.0.1 10011 
+Jan 08 23:54:14.751 HYPERVISOR: exec_cmd: vm slot_add_nio_binding A_North 0 0 udp-c91553ae-95f9-4bbe-b97f-ee539da4b754 
+Jan 08 23:54:14.751 HYPERVISOR: exec_cmd: vm get_status A_North 
+Jan 08 23:54:15.257 HYPERVISOR: exec_cmd: nio create_udp udp-2a3b885c-a72b-44b8-8ad2-da991dee43ef 10022 127.0.0.1 10023 
+Jan 08 23:54:15.260 HYPERVISOR: exec_cmd: vm slot_add_nio_binding A_North 0 1 udp-2a3b885c-a72b-44b8-8ad2-da991dee43ef 
+Jan 08 23:54:15.260 HYPERVISOR: exec_cmd: vm get_status A_North 
+Jan 08 23:55:04.741 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Jan 08 23:55:04.742 VM: VM Ghost created.
+Jan 08 23:55:04.743 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/JacintoLuf/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jan 08 23:55:04.743 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jan 08 23:55:04.744 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\JacintoLuf\Desktop\ua\ano4\ara\projeto\proj\proj\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost' 
+Jan 08 23:55:04.744 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Jan 08 23:55:04.744 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 08 23:55:04.745 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Jan 08 23:55:04.745 HYPERVISOR: exec_cmd: vm start Ghost 
+Jan 08 23:55:04.771 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jan 08 23:55:04.786 VM: VM Ghost shutdown.
+Jan 08 23:55:04.786 VM: VM Ghost destroyed.
+Jan 08 23:55:04.789 HYPERVISOR: exec_cmd: vm get_status A_North 
+Jan 08 23:55:04.790 HYPERVISOR: exec_cmd: vm set_config A_North configs\i3_startup-config.cfg configs\i3_private-config.cfg 
+Jan 08 23:55:04.790 HYPERVISOR: exec_cmd: vm start A_North 
+Jan 08 23:55:45.732 HYPERVISOR: exec_cmd: vm extract_config A_North 
+Jan 08 23:55:57.465 HYPERVISOR: exec_cmd: vm get_status A_North 
+Jan 08 23:55:57.468 HYPERVISOR: exec_cmd: vm stop A_North 
+Jan 08 23:55:57.653 VM: VM A_North shutdown.
+Jan 08 23:55:57.654 HYPERVISOR: exec_cmd: vm extract_config A_North 
+Jan 08 23:56:03.495 HYPERVISOR: exec_cmd: vm get_status A_North 
+Jan 08 23:56:03.496 HYPERVISOR: exec_cmd: vm extract_config A_North 
+Jan 08 23:56:03.702 HYPERVISOR: exec_cmd: vm get_status A_North 
+Jan 08 23:56:03.703 HYPERVISOR: exec_cmd: vm extract_config A_North 
+Jan 08 23:56:03.706 HYPERVISOR: exec_cmd: vm delete A_North 
+Jan 08 23:56:03.706 VM: VM A_North destroyed.
+Jan 08 23:56:03.707 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 08 23:56:03.939 HYPERVISOR: Stopped.
+Jan 08 23:56:03.939 GENERAL: reset done.

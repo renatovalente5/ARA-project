@@ -1,0 +1,82 @@
+Jan 18 12:14:05.742 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 18 12:14:05.743 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52545.
+Jan 18 12:14:06.231 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 18 12:14:06.231 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\JacintoLuf\Desktop\ua\ano4\ara\projeto\proj\proj\project-files\dynamips 
+Jan 18 12:14:06.231 GENERAL: working_dir=C:\Users\JacintoLuf\Desktop\ua\ano4\ara\projeto\proj\proj\project-files\dynamips
+Jan 18 12:14:06.232 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\JacintoLuf\Desktop\ua\ano4\ara\projeto\proj\proj\project-files\dynamips\fbef30a4-4d3a-4a29-9fce-f74db58b485c 
+Jan 18 12:14:06.232 GENERAL: working_dir=C:\Users\JacintoLuf\Desktop\ua\ano4\ara\projeto\proj\proj\project-files\dynamips\fbef30a4-4d3a-4a29-9fce-f74db58b485c
+Jan 18 12:14:06.233 HYPERVISOR: exec_cmd: vm create A_South 12 c7200 
+Jan 18 12:14:06.234 VM: VM A_South created.
+Jan 18 12:14:06.235 HYPERVISOR: exec_cmd: vm set_con_tcp_port A_South 5013 
+Jan 18 12:14:06.235 HYPERVISOR: exec_cmd: c7200 get_mac_addr A_South 
+Jan 18 12:14:06.236 HYPERVISOR: exec_cmd: vm get_status A_South 
+Jan 18 12:14:06.236 HYPERVISOR: exec_cmd: vm slot_add_binding A_South 0 0 C7200-IO-FE 
+Jan 18 12:14:06.237 HYPERVISOR: exec_cmd: vm set_disk0 A_South 0 
+Jan 18 12:14:06.237 HYPERVISOR: exec_cmd: vm set_exec_area A_South 64 
+Jan 18 12:14:06.238 HYPERVISOR: exec_cmd: vm get_status A_South 
+Jan 18 12:14:06.238 HYPERVISOR: exec_cmd: vm set_idle_pc A_South 0x601712a8 
+Jan 18 12:14:06.239 HYPERVISOR: exec_cmd: vm set_ios A_South C:/Users/JacintoLuf/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jan 18 12:14:06.239 HYPERVISOR: exec_cmd: c7200 set_mac_addr A_South ca0c.59e4.0000 
+Jan 18 12:14:06.240 HYPERVISOR: exec_cmd: vm set_nvram A_South 512 
+Jan 18 12:14:06.240 HYPERVISOR: exec_cmd: vm set_ram A_South 512 
+Jan 18 12:14:06.240 HYPERVISOR: exec_cmd: vm get_status A_South 
+Jan 18 12:14:06.241 HYPERVISOR: exec_cmd: vm slot_remove_binding A_South 0 0 
+Jan 18 12:14:06.241 HYPERVISOR: exec_cmd: vm get_status A_South 
+Jan 18 12:14:06.242 HYPERVISOR: exec_cmd: vm slot_add_binding A_South 0 0 C7200-IO-2FE 
+Jan 18 12:14:06.242 HYPERVISOR: exec_cmd: vm get_status A_South 
+Jan 18 12:14:06.242 HYPERVISOR: exec_cmd: vm slot_add_binding A_South 1 0 PA-2FE-TX 
+Jan 18 12:14:15.750 HYPERVISOR: exec_cmd: nio create_udp udp-4993abb9-d9d8-44eb-b987-f5b71f3038c4 10002 127.0.0.1 10003 
+Jan 18 12:14:15.989 HYPERVISOR: exec_cmd: vm slot_add_nio_binding A_South 0 1 udp-4993abb9-d9d8-44eb-b987-f5b71f3038c4 
+Jan 18 12:14:15.989 HYPERVISOR: exec_cmd: vm get_status A_South 
+Jan 18 12:14:21.952 HYPERVISOR: exec_cmd: nio create_udp udp-30eb5d84-92e5-48a9-894a-7b35f23d3ed9 10110 127.0.0.1 10111 
+Jan 18 12:14:21.956 HYPERVISOR: exec_cmd: vm slot_add_nio_binding A_South 0 0 udp-30eb5d84-92e5-48a9-894a-7b35f23d3ed9 
+Jan 18 12:14:21.956 HYPERVISOR: exec_cmd: vm get_status A_South 
+Jan 18 12:17:20.531 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Jan 18 12:17:20.534 VM: VM Ghost created.
+Jan 18 12:17:20.535 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/JacintoLuf/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jan 18 12:17:20.536 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jan 18 12:17:20.536 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\JacintoLuf\Desktop\ua\ano4\ara\projeto\proj\proj\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost' 
+Jan 18 12:17:20.537 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Jan 18 12:17:20.537 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 18 12:17:20.538 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Jan 18 12:17:20.538 HYPERVISOR: exec_cmd: vm start Ghost 
+Jan 18 12:17:20.555 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jan 18 12:17:20.770 VM: VM Ghost shutdown.
+Jan 18 12:17:20.770 VM: VM Ghost destroyed.
+Jan 18 12:17:20.776 HYPERVISOR: exec_cmd: vm get_status A_South 
+Jan 18 12:17:20.779 HYPERVISOR: exec_cmd: vm set_config A_South configs\i12_startup-config.cfg configs\i12_private-config.cfg 
+Jan 18 12:17:20.780 HYPERVISOR: exec_cmd: vm start A_South 
+Jan 18 12:17:51.318 HYPERVISOR: exec_cmd: vm extract_config A_South 
+Jan 18 14:41:58.533 HYPERVISOR: exec_cmd: vm set_ios A_South C:/Users/JacintoLuf/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jan 18 14:49:20.718 HYPERVISOR: exec_cmd: vm set_ios A_South C:/Users/JacintoLuf/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jan 18 14:49:29.648 HYPERVISOR: exec_cmd: vm set_ios A_South C:/Users/JacintoLuf/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jan 18 14:49:37.529 HYPERVISOR: exec_cmd: vm set_ios A_South C:/Users/JacintoLuf/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jan 18 14:52:39.505 HYPERVISOR: exec_cmd: vm set_ios A_South C:/Users/JacintoLuf/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jan 18 23:05:40.706 HYPERVISOR: exec_cmd: vm extract_config A_South 
+Jan 18 23:26:10.917 HYPERVISOR: exec_cmd: vm extract_config A_South 
+Jan 19 02:29:05.927 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Jan 19 02:29:05.931 VM: VM Ghost created.
+Jan 19 02:29:05.932 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/JacintoLuf/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jan 19 02:29:05.932 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jan 19 02:29:05.933 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\JacintoLuf\Desktop\ua\ano4\ara\projeto\proj\proj\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost' 
+Jan 19 02:29:05.933 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Jan 19 02:29:05.934 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 19 02:29:05.934 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Jan 19 02:29:05.935 HYPERVISOR: exec_cmd: vm start Ghost 
+Jan 19 02:29:05.961 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jan 19 02:29:06.175 VM: VM Ghost shutdown.
+Jan 19 02:29:06.175 VM: VM Ghost destroyed.
+Jan 19 02:29:06.179 HYPERVISOR: exec_cmd: vm get_status A_South 
+Jan 19 04:28:22.849 HYPERVISOR: exec_cmd: vm get_status A_South 
+Jan 19 04:28:22.865 HYPERVISOR: exec_cmd: vm stop A_South 
+Jan 19 04:28:22.987 VM: VM A_South shutdown.
+Jan 19 04:28:22.987 HYPERVISOR: exec_cmd: vm extract_config A_South 
+Jan 19 04:28:32.621 HYPERVISOR: exec_cmd: vm get_status A_South 
+Jan 19 04:28:32.622 HYPERVISOR: exec_cmd: vm extract_config A_South 
+Jan 19 04:28:33.567 HYPERVISOR: exec_cmd: vm get_status A_South 
+Jan 19 04:28:33.569 HYPERVISOR: exec_cmd: vm extract_config A_South 
+Jan 19 04:28:33.572 HYPERVISOR: exec_cmd: vm delete A_South 
+Jan 19 04:28:33.572 VM: VM A_South destroyed.
+Jan 19 04:28:33.573 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 19 04:28:33.912 HYPERVISOR: Stopped.
+Jan 19 04:28:33.912 GENERAL: reset done.

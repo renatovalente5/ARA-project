@@ -1,0 +1,100 @@
+--------------name.conf.local---------------------------
+view "Arasaka_S" {
+        match-clients { A_S; };
+        recursion no;
+        zone "burn-city.org" {
+                type master;
+                file "/etc/bind/burn-city.org-Arasaka_S.db";
+        };
+};
+
+view "Arasaka_N" {
+        match-clients { A_N; };
+
+        recursion no;
+        zone "burn-city.org" {
+                type master;
+                file "/etc/bind/burn-city.org-Arasaka_N.db";
+        };
+};
+
+view "Militech" {
+        match-clients { Militech; };
+        recursion no;
+        zone "burn-city.org" {
+                type master;
+                file "/etc/bind/burn-city.org-Militech.db";
+        };
+};
+
+view "MilitechN" {
+        match-clients { MilitechN; };
+        recursion no;
+        zone "burn-city.org" {
+                type master;
+                file "/etc/bind/burn-city.org-MilitechN.db";
+        };
+};
+-----------------geoip.acl----------------------
+acl "A_N" {
+        193.136.2.0/24;
+};
+acl "A_S" {
+        193.136.3.0/24;
+};
+acl "Militech" {
+        193.136.202.0/23;
+};
+acl "MilitechN"{
+        193.136.200.0/23;
+};
+-------------------db-------------------------------
+----------------arasaka n------------------
+$TTL    604800
+$ORIGIN burn-city.org.
+@       IN      SOA     ns1.burn-city.org  adm.burn-city.org.(
+                                2       ;Serial
+                                604800  ;Refresh
+                                86400   ;Retry
+                                2419200 ;Expire
+                                604800); Negative Cache TTL
+        IN      NS      ns1.burn-city.org.
+        IN      A       200.100.2.101
+ns1     IN      A       200.100.4.100
+---------------arasaka s---------------------
+$TTL    604800
+$ORIGIN burn-city.org.
+@       IN      SOA     ns1.burn-city.org  adm.burn-city.org.(
+                                2       ;Serial
+                                604800  ;Refresh
+                                86400   ;Retry
+                                2419200 ;Expire
+                                604800); Negative Cache TTL
+        IN      NS      ns1.burn-city.org.
+        IN      A       200.100.4.101
+ns1     IN      A       200.100.4.100
+-----------------militech n---------------------
+$TTL    604800
+$ORIGIN burn-city.org.
+@       IN      SOA     ns1.burn-city.org  adm.burn-city.org.(
+                                2       ;Serial
+                                604800  ;Refresh
+                                86400   ;Retry
+                                2419200 ;Expire
+                                604800); Negative Cache TTL
+        IN      NS      ns1.burn-city.org.
+        IN      A       200.100.4.101
+ns1     IN      A       200.100.4.100
+-----------------militech------------------------
+$TTL    604800
+$ORIGIN burn-city.org.
+@       IN      SOA     ns1.burn-city.org  adm.burn-city.org.(
+                                2       ;Serial
+                                604800  ;Refresh
+                                86400   ;Retry
+                                2419200 ;Expire
+                                604800); Negative Cache TTL
+        IN      NS      ns1.burn-city.org.
+        IN      A       200.100.4.101
+ns1     IN      A       200.100.4.100
+------------------------------------------------------------------

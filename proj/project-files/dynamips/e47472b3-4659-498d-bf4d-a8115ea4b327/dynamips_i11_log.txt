@@ -1,0 +1,22 @@
+Jan 08 23:54:06.344 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 08 23:54:06.345 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49378.
+Jan 08 23:54:06.831 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 08 23:54:06.832 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\JacintoLuf\Desktop\ua\ano4\ara\projeto\proj\proj\project-files\dynamips 
+Jan 08 23:54:06.832 GENERAL: working_dir=C:\Users\JacintoLuf\Desktop\ua\ano4\ara\projeto\proj\proj\project-files\dynamips
+Jan 08 23:54:06.832 HYPERVISOR: exec_cmd: ethsw create A_Core 
+Jan 08 23:54:14.088 HYPERVISOR: exec_cmd: nio create_udp udp-d3d06bc6-966b-4765-8064-f11425714150 10001 127.0.0.1 10000 
+Jan 08 23:54:14.089 HYPERVISOR: exec_cmd: ethsw add_nio A_Core udp-d3d06bc6-966b-4765-8064-f11425714150 
+Jan 08 23:54:14.108 HYPERVISOR: exec_cmd: ethsw set_access_port A_Core udp-d3d06bc6-966b-4765-8064-f11425714150 1 
+Jan 08 23:54:14.407 HYPERVISOR: exec_cmd: nio create_udp udp-e17e2865-5cdf-4b29-ac65-88af54ec7caa 10005 127.0.0.1 10004 
+Jan 08 23:54:14.408 HYPERVISOR: exec_cmd: ethsw add_nio A_Core udp-e17e2865-5cdf-4b29-ac65-88af54ec7caa 
+Jan 08 23:54:14.417 HYPERVISOR: exec_cmd: ethsw set_access_port A_Core udp-e17e2865-5cdf-4b29-ac65-88af54ec7caa 1 
+Jan 08 23:54:14.487 HYPERVISOR: exec_cmd: nio create_udp udp-2ae272c8-1032-45fc-a1c3-60ec20e165a6 10008 127.0.0.1 10009 
+Jan 08 23:54:14.487 HYPERVISOR: exec_cmd: ethsw add_nio A_Core udp-2ae272c8-1032-45fc-a1c3-60ec20e165a6 
+Jan 08 23:54:14.500 HYPERVISOR: exec_cmd: ethsw set_access_port A_Core udp-2ae272c8-1032-45fc-a1c3-60ec20e165a6 1 
+Jan 08 23:54:14.828 HYPERVISOR: exec_cmd: nio create_udp udp-540ea93e-e294-4402-a2b6-091c361b4092 10012 127.0.0.1 10013 
+Jan 08 23:54:14.829 HYPERVISOR: exec_cmd: ethsw add_nio A_Core udp-540ea93e-e294-4402-a2b6-091c361b4092 
+Jan 08 23:54:14.835 HYPERVISOR: exec_cmd: ethsw set_access_port A_Core udp-540ea93e-e294-4402-a2b6-091c361b4092 1 
+Jan 08 23:56:03.608 HYPERVISOR: exec_cmd: ethsw delete A_Core 
+Jan 08 23:56:03.687 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 08 23:56:03.940 HYPERVISOR: Stopped.
+Jan 08 23:56:03.940 GENERAL: reset done.

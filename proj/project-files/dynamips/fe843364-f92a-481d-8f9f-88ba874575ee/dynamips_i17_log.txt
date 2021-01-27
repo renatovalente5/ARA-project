@@ -1,0 +1,58 @@
+Jan 18 12:14:07.855 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 18 12:14:07.856 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52557.
+Jan 18 12:14:08.344 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 18 12:14:08.344 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\JacintoLuf\Desktop\ua\ano4\ara\projeto\proj\proj\project-files\dynamips 
+Jan 18 12:14:08.345 GENERAL: working_dir=C:\Users\JacintoLuf\Desktop\ua\ano4\ara\projeto\proj\proj\project-files\dynamips
+Jan 18 12:14:08.345 HYPERVISOR: exec_cmd: ethsw create DatacenterSouth 
+Jan 18 12:14:19.510 HYPERVISOR: exec_cmd: nio create_udp udp-9ee1a449-7b06-4097-90cb-748210cc4095 10053 127.0.0.1 10052 
+Jan 18 12:14:19.511 HYPERVISOR: exec_cmd: ethsw add_nio DatacenterSouth udp-9ee1a449-7b06-4097-90cb-748210cc4095 
+Jan 18 12:14:19.512 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-9ee1a449-7b06-4097-90cb-748210cc4095 1 
+Jan 18 12:14:22.786 HYPERVISOR: exec_cmd: nio create_udp udp-0a484dda-fc40-4db7-9188-bc1fc899af80 10139 127.0.0.1 10138 
+Jan 18 12:14:22.786 HYPERVISOR: exec_cmd: ethsw add_nio DatacenterSouth udp-0a484dda-fc40-4db7-9188-bc1fc899af80 
+Jan 18 12:14:22.795 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-0a484dda-fc40-4db7-9188-bc1fc899af80 1 
+Jan 18 12:46:28.102 HYPERVISOR: exec_cmd: nio create_udp udp-d17e65bd-e0c3-4c97-a1fc-d881a02dddbf 10089 127.0.0.1 10088 
+Jan 18 12:46:28.103 HYPERVISOR: exec_cmd: ethsw add_nio DatacenterSouth udp-d17e65bd-e0c3-4c97-a1fc-d881a02dddbf 
+Jan 18 12:46:28.119 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-d17e65bd-e0c3-4c97-a1fc-d881a02dddbf 1 
+Jan 18 14:42:55.527 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-9ee1a449-7b06-4097-90cb-748210cc4095 1 
+Jan 18 14:42:55.637 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-0a484dda-fc40-4db7-9188-bc1fc899af80 1 
+Jan 18 14:42:55.745 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-d17e65bd-e0c3-4c97-a1fc-d881a02dddbf 1 
+Jan 18 14:42:59.971 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-9ee1a449-7b06-4097-90cb-748210cc4095 1 
+Jan 18 14:42:59.974 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-0a484dda-fc40-4db7-9188-bc1fc899af80 1 
+Jan 18 14:42:59.976 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-d17e65bd-e0c3-4c97-a1fc-d881a02dddbf 1 
+Jan 18 14:43:00.629 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-9ee1a449-7b06-4097-90cb-748210cc4095 1 
+Jan 18 14:43:00.635 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-0a484dda-fc40-4db7-9188-bc1fc899af80 1 
+Jan 18 14:43:00.638 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-d17e65bd-e0c3-4c97-a1fc-d881a02dddbf 1 
+Jan 18 14:43:34.080 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-9ee1a449-7b06-4097-90cb-748210cc4095 1 
+Jan 18 14:43:34.200 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-0a484dda-fc40-4db7-9188-bc1fc899af80 1 
+Jan 18 14:43:34.424 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-d17e65bd-e0c3-4c97-a1fc-d881a02dddbf 1 
+Jan 18 14:43:37.299 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-9ee1a449-7b06-4097-90cb-748210cc4095 1 
+Jan 18 14:43:37.309 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-0a484dda-fc40-4db7-9188-bc1fc899af80 1 
+Jan 18 14:43:37.312 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-d17e65bd-e0c3-4c97-a1fc-d881a02dddbf 1 
+Jan 18 14:48:41.551 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-9ee1a449-7b06-4097-90cb-748210cc4095 1 
+Jan 18 14:48:41.552 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-0a484dda-fc40-4db7-9188-bc1fc899af80 1 
+Jan 18 14:48:41.552 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-d17e65bd-e0c3-4c97-a1fc-d881a02dddbf 1 
+Jan 18 14:49:23.112 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-9ee1a449-7b06-4097-90cb-748210cc4095 1 
+Jan 18 14:49:23.125 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-0a484dda-fc40-4db7-9188-bc1fc899af80 1 
+Jan 18 14:49:23.132 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-d17e65bd-e0c3-4c97-a1fc-d881a02dddbf 1 
+Jan 18 14:49:26.213 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-9ee1a449-7b06-4097-90cb-748210cc4095 1 
+Jan 18 14:49:26.219 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-0a484dda-fc40-4db7-9188-bc1fc899af80 1 
+Jan 18 14:49:26.320 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-d17e65bd-e0c3-4c97-a1fc-d881a02dddbf 1 
+Jan 18 14:49:37.949 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-9ee1a449-7b06-4097-90cb-748210cc4095 1 
+Jan 18 14:49:38.054 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-0a484dda-fc40-4db7-9188-bc1fc899af80 1 
+Jan 18 14:49:38.056 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-d17e65bd-e0c3-4c97-a1fc-d881a02dddbf 1 
+Jan 18 14:49:56.793 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-9ee1a449-7b06-4097-90cb-748210cc4095 1 
+Jan 18 14:49:56.905 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-0a484dda-fc40-4db7-9188-bc1fc899af80 1 
+Jan 18 14:49:57.016 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-d17e65bd-e0c3-4c97-a1fc-d881a02dddbf 1 
+Jan 18 14:49:59.789 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-9ee1a449-7b06-4097-90cb-748210cc4095 1 
+Jan 18 14:49:59.803 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-0a484dda-fc40-4db7-9188-bc1fc899af80 1 
+Jan 18 14:49:59.907 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-d17e65bd-e0c3-4c97-a1fc-d881a02dddbf 1 
+Jan 18 14:50:00.569 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-9ee1a449-7b06-4097-90cb-748210cc4095 1 
+Jan 18 14:50:00.672 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-0a484dda-fc40-4db7-9188-bc1fc899af80 1 
+Jan 18 14:50:00.675 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-d17e65bd-e0c3-4c97-a1fc-d881a02dddbf 1 
+Jan 18 14:50:49.367 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-9ee1a449-7b06-4097-90cb-748210cc4095 1 
+Jan 18 14:50:49.367 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-0a484dda-fc40-4db7-9188-bc1fc899af80 1 
+Jan 18 14:50:49.368 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterSouth udp-d17e65bd-e0c3-4c97-a1fc-d881a02dddbf 1 
+Jan 19 04:28:33.306 HYPERVISOR: exec_cmd: ethsw delete DatacenterSouth 
+Jan 19 04:28:33.380 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 19 04:28:33.851 HYPERVISOR: Stopped.
+Jan 19 04:28:33.852 GENERAL: reset done.

@@ -1,0 +1,37 @@
+Jan 18 12:14:07.328 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 18 12:14:07.329 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52554.
+Jan 18 12:14:07.818 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 18 12:14:07.818 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\JacintoLuf\Desktop\ua\ano4\ara\projeto\proj\proj\project-files\dynamips 
+Jan 18 12:14:07.818 GENERAL: working_dir=C:\Users\JacintoLuf\Desktop\ua\ano4\ara\projeto\proj\proj\project-files\dynamips
+Jan 18 12:14:07.819 HYPERVISOR: exec_cmd: ethsw create DatacenterNorth1 
+Jan 18 12:14:19.401 HYPERVISOR: exec_cmd: nio create_udp udp-cfee4542-f419-40cb-8e36-8f2a520c3972 10049 127.0.0.1 10048 
+Jan 18 12:14:19.402 HYPERVISOR: exec_cmd: ethsw add_nio DatacenterNorth1 udp-cfee4542-f419-40cb-8e36-8f2a520c3972 
+Jan 18 12:14:19.413 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterNorth1 udp-cfee4542-f419-40cb-8e36-8f2a520c3972 1 
+Jan 18 12:14:21.328 HYPERVISOR: exec_cmd: nio create_udp udp-fe7812e8-7698-4013-a360-8820b42bb7cd 10089 127.0.0.1 10088 
+Jan 18 12:14:21.328 HYPERVISOR: exec_cmd: ethsw add_nio DatacenterNorth1 udp-fe7812e8-7698-4013-a360-8820b42bb7cd 
+Jan 18 12:14:21.334 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterNorth1 udp-fe7812e8-7698-4013-a360-8820b42bb7cd 1 
+Jan 18 12:46:17.458 HYPERVISOR: exec_cmd: ethsw remove_nio DatacenterNorth1 udp-fe7812e8-7698-4013-a360-8820b42bb7cd 
+Jan 18 12:46:17.478 HYPERVISOR: exec_cmd: nio delete udp-fe7812e8-7698-4013-a360-8820b42bb7cd 
+Jan 18 12:46:34.146 HYPERVISOR: exec_cmd: nio create_udp udp-b019317a-c166-4cd9-b948-1cf4ff839156 10155 127.0.0.1 10154 
+Jan 18 12:46:34.146 HYPERVISOR: exec_cmd: ethsw add_nio DatacenterNorth1 udp-b019317a-c166-4cd9-b948-1cf4ff839156 
+Jan 18 12:46:34.149 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterNorth1 udp-b019317a-c166-4cd9-b948-1cf4ff839156 1 
+Jan 18 14:44:17.455 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterNorth1 udp-cfee4542-f419-40cb-8e36-8f2a520c3972 1 
+Jan 18 14:44:17.469 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterNorth1 udp-b019317a-c166-4cd9-b948-1cf4ff839156 1 
+Jan 18 14:44:21.498 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterNorth1 udp-cfee4542-f419-40cb-8e36-8f2a520c3972 1 
+Jan 18 14:44:21.507 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterNorth1 udp-b019317a-c166-4cd9-b948-1cf4ff839156 1 
+Jan 18 14:44:23.181 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterNorth1 udp-cfee4542-f419-40cb-8e36-8f2a520c3972 1 
+Jan 18 14:44:23.286 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterNorth1 udp-b019317a-c166-4cd9-b948-1cf4ff839156 1 
+Jan 18 14:44:24.589 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterNorth1 udp-cfee4542-f419-40cb-8e36-8f2a520c3972 1 
+Jan 18 14:44:24.593 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterNorth1 udp-b019317a-c166-4cd9-b948-1cf4ff839156 1 
+Jan 18 14:49:18.630 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterNorth1 udp-cfee4542-f419-40cb-8e36-8f2a520c3972 1 
+Jan 18 14:49:18.744 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterNorth1 udp-b019317a-c166-4cd9-b948-1cf4ff839156 1 
+Jan 18 14:49:24.245 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterNorth1 udp-cfee4542-f419-40cb-8e36-8f2a520c3972 1 
+Jan 18 14:49:24.352 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterNorth1 udp-b019317a-c166-4cd9-b948-1cf4ff839156 1 
+Jan 18 14:49:37.524 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterNorth1 udp-cfee4542-f419-40cb-8e36-8f2a520c3972 1 
+Jan 18 14:49:37.532 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterNorth1 udp-b019317a-c166-4cd9-b948-1cf4ff839156 1 
+Jan 18 14:50:22.916 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterNorth1 udp-cfee4542-f419-40cb-8e36-8f2a520c3972 1 
+Jan 18 14:50:22.931 HYPERVISOR: exec_cmd: ethsw set_access_port DatacenterNorth1 udp-b019317a-c166-4cd9-b948-1cf4ff839156 1 
+Jan 19 04:28:33.301 HYPERVISOR: exec_cmd: ethsw delete DatacenterNorth1 
+Jan 19 04:28:33.339 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 19 04:28:33.549 HYPERVISOR: Stopped.
+Jan 19 04:28:33.550 GENERAL: reset done.

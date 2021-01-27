@@ -1,0 +1,49 @@
+Jan 18 12:14:06.807 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 18 12:14:06.808 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52551.
+Jan 18 12:14:07.292 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 18 12:14:07.292 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\JacintoLuf\Desktop\ua\ano4\ara\projeto\proj\proj\project-files\dynamips 
+Jan 18 12:14:07.292 GENERAL: working_dir=C:\Users\JacintoLuf\Desktop\ua\ano4\ara\projeto\proj\proj\project-files\dynamips
+Jan 18 12:14:07.293 HYPERVISOR: exec_cmd: ethsw create SIP_proxy_1 
+Jan 18 12:14:19.295 HYPERVISOR: exec_cmd: nio create_udp udp-77f2fbaf-cf02-41a7-abcd-e7eb86f5bfaf 10045 127.0.0.1 10044 
+Jan 18 12:14:19.295 HYPERVISOR: exec_cmd: ethsw add_nio SIP_proxy_1 udp-77f2fbaf-cf02-41a7-abcd-e7eb86f5bfaf 
+Jan 18 12:14:19.305 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-77f2fbaf-cf02-41a7-abcd-e7eb86f5bfaf 1 
+Jan 18 12:14:23.280 HYPERVISOR: exec_cmd: nio create_udp udp-24f865e7-287a-4e68-966e-d62da6a7fe63 10145 127.0.0.1 10144 
+Jan 18 12:14:23.280 HYPERVISOR: exec_cmd: ethsw add_nio SIP_proxy_1 udp-24f865e7-287a-4e68-966e-d62da6a7fe63 
+Jan 18 12:14:23.290 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-24f865e7-287a-4e68-966e-d62da6a7fe63 1 
+Jan 18 14:44:17.469 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-77f2fbaf-cf02-41a7-abcd-e7eb86f5bfaf 1 
+Jan 18 14:44:17.581 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-24f865e7-287a-4e68-966e-d62da6a7fe63 1 
+Jan 18 14:44:21.504 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-77f2fbaf-cf02-41a7-abcd-e7eb86f5bfaf 1 
+Jan 18 14:44:21.517 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-24f865e7-287a-4e68-966e-d62da6a7fe63 1 
+Jan 18 14:44:24.034 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-77f2fbaf-cf02-41a7-abcd-e7eb86f5bfaf 1 
+Jan 18 14:44:24.037 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-24f865e7-287a-4e68-966e-d62da6a7fe63 1 
+Jan 18 14:44:25.241 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-77f2fbaf-cf02-41a7-abcd-e7eb86f5bfaf 1 
+Jan 18 14:44:25.243 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-24f865e7-287a-4e68-966e-d62da6a7fe63 1 
+Jan 18 14:45:28.033 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-77f2fbaf-cf02-41a7-abcd-e7eb86f5bfaf 1 
+Jan 18 14:45:28.033 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-24f865e7-287a-4e68-966e-d62da6a7fe63 1 
+Jan 18 14:48:18.117 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-77f2fbaf-cf02-41a7-abcd-e7eb86f5bfaf 1 
+Jan 18 14:48:18.118 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-24f865e7-287a-4e68-966e-d62da6a7fe63 1 
+Jan 18 14:48:31.583 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-77f2fbaf-cf02-41a7-abcd-e7eb86f5bfaf 1 
+Jan 18 14:48:31.584 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-24f865e7-287a-4e68-966e-d62da6a7fe63 1 
+Jan 18 14:48:39.562 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-77f2fbaf-cf02-41a7-abcd-e7eb86f5bfaf 1 
+Jan 18 14:48:39.563 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-24f865e7-287a-4e68-966e-d62da6a7fe63 1 
+Jan 18 14:49:22.126 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-77f2fbaf-cf02-41a7-abcd-e7eb86f5bfaf 1 
+Jan 18 14:49:22.136 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-24f865e7-287a-4e68-966e-d62da6a7fe63 1 
+Jan 18 14:49:35.133 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-77f2fbaf-cf02-41a7-abcd-e7eb86f5bfaf 1 
+Jan 18 14:49:35.140 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-24f865e7-287a-4e68-966e-d62da6a7fe63 1 
+Jan 18 14:49:35.985 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-77f2fbaf-cf02-41a7-abcd-e7eb86f5bfaf 1 
+Jan 18 14:49:36.093 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-24f865e7-287a-4e68-966e-d62da6a7fe63 1 
+Jan 18 14:50:22.935 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-77f2fbaf-cf02-41a7-abcd-e7eb86f5bfaf 1 
+Jan 18 14:50:23.132 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-24f865e7-287a-4e68-966e-d62da6a7fe63 1 
+Jan 18 14:50:25.325 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-77f2fbaf-cf02-41a7-abcd-e7eb86f5bfaf 1 
+Jan 18 14:50:25.429 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-24f865e7-287a-4e68-966e-d62da6a7fe63 1 
+Jan 18 14:50:25.882 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-77f2fbaf-cf02-41a7-abcd-e7eb86f5bfaf 1 
+Jan 18 14:50:25.986 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-24f865e7-287a-4e68-966e-d62da6a7fe63 1 
+Jan 18 15:48:14.411 HYPERVISOR: exec_cmd: ethsw remove_nio SIP_proxy_1 udp-24f865e7-287a-4e68-966e-d62da6a7fe63 
+Jan 18 15:48:14.443 HYPERVISOR: exec_cmd: nio delete udp-24f865e7-287a-4e68-966e-d62da6a7fe63 
+Jan 18 15:49:11.689 HYPERVISOR: exec_cmd: nio create_udp udp-80ada72f-b01e-40d0-8597-483cc845c93c 10159 127.0.0.1 10158 
+Jan 18 15:49:11.689 HYPERVISOR: exec_cmd: ethsw add_nio SIP_proxy_1 udp-80ada72f-b01e-40d0-8597-483cc845c93c 
+Jan 18 15:49:11.721 HYPERVISOR: exec_cmd: ethsw set_access_port SIP_proxy_1 udp-80ada72f-b01e-40d0-8597-483cc845c93c 1 
+Jan 19 04:28:33.320 HYPERVISOR: exec_cmd: ethsw delete SIP_proxy_1 
+Jan 19 04:28:33.359 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 19 04:28:33.385 HYPERVISOR: Stopped.
+Jan 19 04:28:33.385 GENERAL: reset done.
