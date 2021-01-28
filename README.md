@@ -1,4 +1,4 @@
-# ARA_project
+# Arquitetura de Redes Avançada
 
 ![alt text](network_design.png "Network Design of GNS3 project")
 
